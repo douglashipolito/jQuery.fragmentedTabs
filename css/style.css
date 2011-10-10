@@ -1,0 +1,28 @@
+#tabs {
+	width:500px;
+	border:1px solid black;
+	overflow:hidden;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#tabs li {
+	float:left;
+	margin:0 10px;
+}
+
+#tabs li a{
+	text-decoration:none;
+	color:#999;
+}
+#tabs .active-tab a {
+	color:#000;	
+}
+
+#tab-content {
+	width:480px;
+	min-height:300px;
+	padding:10px;
+	border:1px solid black;
+	border-top:0;
+}
