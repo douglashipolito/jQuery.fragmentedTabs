@@ -233,7 +233,7 @@
 			
 		};
 		
-		$.fn.tabs = function (method) {
+		$.fn.fragmentedTabs = function (method) {
 			if (action[method]) {
 				return action[method].apply(this, Array.prototype.slice.call(arguments, 1));
 				
